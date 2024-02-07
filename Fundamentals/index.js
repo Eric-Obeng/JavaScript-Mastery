@@ -180,3 +180,45 @@ console.log(true ? 1 : 2);
 console.log("2" === 2 ? "Yes" : "No");
 
 console.log(!true ? "false" : "true");
+
+// Empty Values
+//Undefined
+console.log("\n");
+let firstname;
+console.log(firstname);
+
+//Conversion
+console.log(8 * null); // 0
+console.log("5" - 1); // 4
+console.log("5" + 1); // 51
+
+console.log("five" * 2); // NaN
+console.log("2" / 1); // 2
+
+console.log("six" - 12); //six12
+
+console.log(typeof NaN);
+
+// False numbers
+/*******
+ * 0
+ * ''
+ * undefined
+ * NaN
+ * null
+ * false
+ */
+console.log("\n");
+console.log(0 == false);
+// console.log(undefined === false);
+
+let lastName;
+
+lastName ? console.log("am a true value") : console.log("am a false value");
+
+console.log(typeof lastName);
+
+console.log(null || "user"); // user
+console.log("Agnes" || "user"); // Agnes
+
+
