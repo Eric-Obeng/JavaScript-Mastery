@@ -170,17 +170,21 @@ console.log("\n");
 //Updating bindings
 {
   let number = 5; //5, 4
-  let newNumber = --number; //3
+  let newNumber = --number; //4, 3
   let newNumber2 = newNumber--; //4
 
   console.log(newNumber); //3
   console.log(newNumber2); //4
-  console.log(number); //4, 5
+  console.log(number); //4
 
   //4, -5,
   // --variable, variable--
   //pre decrement
   //post decrement
+}
 
-  
+{
+  switch (prompt('What is the weather like?')) {
+    
+  }
 }
