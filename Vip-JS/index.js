@@ -101,4 +101,47 @@ console.log("age " + 45);
 
 const firstname = "Ruby";
 const secondname = "Chelsea";
-console.log(firstname + ' ' + secondname);
+console.log(firstname + " " + secondname);
+
+// Assignment Operator
+const sum = "a";
+{
+  let age = 10;
+
+  // Compound Assignment
+  age = age + 5; //15
+  // age += 5
+  console.log(age);
+}
+
+// Comparison Operator
+console.log(5 == "5"); // true
+console.log(5 === "5"); // false
+
+console.log(5 != "5"); // false
+console.log(5 !== "5"); // true
+
+console.log(5 <= 5); // true
+console.log(5 >= 8); // false
+
+// Logical operators
+
+// Functions
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(50, 10));
+console.log(add(60, 20));
+
+function multiplyByTwo(value) {
+  if (isNaN(value)) {
+    return `Value must be a number`;
+  }
+
+  const result = value * 2;
+  return result;
+}
+
+console.log(multiplyByTwo(5));
+console.log(multiplyByTwo("5"));
